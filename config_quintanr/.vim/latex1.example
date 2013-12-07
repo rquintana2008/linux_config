@@ -1,0 +1,7 @@
+\documentclass {article}
+\usepackage{psfig}
+\usepackage{my_normal_page} % see $HOME/local/lib/texfm/tex
+
+\begin{document}
+
+\end{document}
