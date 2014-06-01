@@ -17,8 +17,6 @@
    umask 002
   # Set Console to show path in active line
   export PS1='<\u@\h> [\w] $ '
-  export DISPLAY=ld95:0.0
-  export PRINTER=renoir2
    # Only execute if interactive
    test "${-#*i}" != "$-" || return 0
 
