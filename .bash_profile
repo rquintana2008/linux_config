@@ -15,19 +15,11 @@
 
 # Print a message
 echo "-> bash_profile"
-ROOT_PATH=/bin:\
-    /usr/bin:\
-    /usr/lib:\
-    /usr/local/bin:\
-    /usr/bin/X11:\
-    /usr/local/heroku/bin:\
-    $HOME/scripts:\
-    $HOME/scripts/env_scripts:\
-    /opt/ictools/gridutils/bin:\
-    /opt/grid-6.0u8/bin/lx24-amd64:\
-    /opt/ictools/vnc/bin
-export  ROOT_PATH
-export  PATH=$ROOT_PATH
+#ROOT_PATH=/bin:\
+#    /usr/bin:\
+#    /usr/lib:\
+#    /usr/local/bin:\
+#    /usr/bin/X11:\
 export  ROOT_CDPATH=.:$HOME
 export  CDPATH=.:$HOME
 export  SCRIPTPATH=$HOME/bin
@@ -38,11 +30,6 @@ umask 002
 # Set the shell timeout to infinity
 export TMOUT=0
 echo "bash_profile"
-# Get the aliases and functions
-# if [ -f ${HOME}/.bashrc ]; then
-#    . ${HOME}/.bashrc
-## fi
-
 
 # Set some varialbes so that I know that the profile has run
 export BASH_PROFILE_RUN=TRUE
